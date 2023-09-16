@@ -1,7 +1,7 @@
 [
   {
     "cover_img": "https://i.ibb.co/dpFTyhB/Rectangle-2-2.png",
-    "title": "Introduction to C Programming",
+    "title": "Inuction to C Programming",
     "description": "Description for Product 1",
     "Price": 29.99,
     "Credit": 5
@@ -15,7 +15,7 @@
   },
   {
     "cover_img": "https://i.ibb.co/1QD4gRq/Rectangle-2-4.png",
-    "title": "Introduction to C++ for DSA",
+    "title": "Introdtion to C++ for DSA",
     "description": "Description for Product 3",
     "Price": 49.99,
     "Credit": 10
@@ -29,7 +29,7 @@
   },
   {
     "cover_img": "https://i.ibb.co/0hxcK7y/Rectangle-2.png",
-    "title": "Introduction to OOP Python",
+    "title": "Introduction to Python",
     "description": "Description for Product 5",
     "Price": 59.99,
     "Credit": 12

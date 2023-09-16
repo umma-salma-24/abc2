@@ -1,12 +1,8 @@
 .header {
   background: #f3f3f3;
-  /* width: 1310px;
-  height: 1500px; */
-  width: 100%;
-  height: 100%;
   color: #1c1b1b;
   font-family: Inter;
-  font-size: 32px;
+  font-size: 25px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -18,13 +14,6 @@
   height: 40px;
   background-color: #2f80ed;
   border: 2px solid white;
-}
-.card-container {
-  width: 312px;
-  height: 402;
-  border: 2px solid #fff;
-  border-radius: 5px;
-  background-color: #fff;
 }
 .card-title {
   color: #1c1b1b;
@@ -56,11 +45,24 @@
   font-weight: 600px;
 }
 
-.card-container {
-  display: flex;
+.card {
+  width: 312px;
+  height: 502px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  background-color: #fff;
   flex-wrap: wrap;
-  gap: 10px;
+  padding: 10px;
 }
+.cart {
+  width: 312px;
+  height: auto;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  background-color: #fff;
+  margin-left: 40px;
+}
+
 .credit-time {
   color: #2f80ed;
   font-family: Inter;
