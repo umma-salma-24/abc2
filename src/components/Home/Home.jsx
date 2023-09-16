@@ -7,6 +7,8 @@ import { useState } from "react";
 const Home = () => {
   const [datas, setDatas] = useState([]);
   const [selectedDatas, setSelectedDatas] = useState([]);
+  const [remaining, setRemaining] = useState(0);
+  const [totalRead, setTotalRead] = useState(0);
 
   useEffect(() => {
     fetch("./data.json")
@@ -16,8 +18,25 @@ const Home = () => {
 
   const handleSelectData = (data) => {
     const isExist = selectedDatas.find((item) => item.credit == data.credit);
-    console.log(isExist);
-    setSelectedDatas([...selectedDatas, data]);
+    let count = data.credit;
+
+    if (isExist) {
+      return alert("already booked");
+    } else {
+      selectedDatas.forEach((item) => {
+        count = count + item.credit;
+      });
+
+      const remaining = 20 - count;
+
+      if (count > 20) {
+        return alert("Time is over not more");
+      } else {
+        setTotalRead(count);
+        setRemaining(remaining);
+        setSelectedDatas([...selectedDatas, data]);
+      }
+    }
   };
 
   return (
@@ -47,7 +66,11 @@ const Home = () => {
           </div>
         ))}
         <div className="cart">
-          <Cart selectedDatas={selectedDatas}></Cart>
+          <Cart
+            selectedDatas={selectedDatas}
+            remaining={remaining}
+            totalRead={totalRead}
+          ></Cart>
         </div>
       </div>
     </div>

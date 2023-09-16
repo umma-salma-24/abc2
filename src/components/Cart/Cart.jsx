@@ -2,21 +2,25 @@
 import React from "react";
 import "./Cart.css";
 
-const Cart = (props) => {
-  console.log(props.selectedDatas);
+const Cart = ({ selectedDatas, remaining, totalRead }) => {
+  console.log(selectedDatas);
   return (
     <div>
       <h1 className="credit-time">
-        Credit Hour Remaining {props.selectedDatas.length} hr{" "}
+        Credit Hour Remaining:{remaining} {selectedDatas.length}
       </h1>
+
       <hr />
 
       <p className="credit-heading">Course Name</p>
 
-      {props.selectedDatas.map((data) => (
-        <ol>
-          <li key={data.credit}>{data.title}</li>
-        </ol>
+      {selectedDatas.map((data) => (
+        <>
+          <ol>
+            <li key={data.credit}>{data.title}</li>
+          </ol>
+          <h3>Total Credit Hour :{totalRead} </h3>
+        </>
       ))}
     </div>
   );

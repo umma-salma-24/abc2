@@ -46,20 +46,20 @@
     "title": " AWS, Cloud Computing",
     "description": "Description for Product 7",
     "Price": 34.99,
-    "Credit": 32
+    "Credit": 6
   },
   {
     "cover_img": "https://i.ibb.co/Ntm5FdR/Rectangle-2-1.png",
     "title": "Database (MySQL)",
     "description": "Description for Product 8",
     "Price": 44.99,
-    "Credit": 42
+    "Credit": 7
   },
   {
     "cover_img": "https://i.ibb.co/zFjQBH7/Rectangle-2-6.png",
     "title": "Problem-Solving Part",
     "description": "Description for Product 9",
     "Price": 54.99,
-    "Credit": 52
+    "Credit": 3
   }
 ]
