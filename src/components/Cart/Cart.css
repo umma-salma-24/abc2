@@ -61,3 +61,19 @@
   flex-wrap: wrap;
   gap: 10px;
 }
+.credit-time {
+  color: #2f80ed;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 166.667% */
+}
+.credit-heading {
+  color: #1c1b1b;
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

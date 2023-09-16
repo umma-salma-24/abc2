@@ -15,6 +15,8 @@ const Home = () => {
   }, []);
 
   const handleSelectData = (data) => {
+    const isExist = selectedDatas.find((item) => item.credit == data.credit);
+    console.log(isExist);
     setSelectedDatas([...selectedDatas, data]);
   };
 
