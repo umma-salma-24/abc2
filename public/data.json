@@ -1,14 +1,14 @@
 [
   {
     "cover_img": "https://i.ibb.co/dpFTyhB/Rectangle-2-2.png",
-    "title": "Inuction to C Programming",
+    "title": "Inuction to C Promming",
     "description": "Description for Product 1",
     "Price": 29.99,
     "Credit": 5
   },
   {
     "cover_img": "https://i.ibb.co/wd62WpQ/Rectangle-2-3.png",
-    "title": "Introduction to Algorithms",
+    "title": "Intrction to Algorithms",
     "description": "Description for Product 2",
     "Price": 39.99,
     "Credit": 7
